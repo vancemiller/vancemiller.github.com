@@ -54,20 +54,6 @@ header {
     list-style: square inside;
 }
 
-.resume div#experience > div > h1 {
-    font-size: 1.5em;
-}
-
-.resume div#activities > div:nth-child(n) {
-    vertical-align: top;
-}
-
-.resume div#activities > div > div + div {
-    width: auto;
-    padding-left: 0.1em;
-    margin: auto;
-}
-
 .resume div.section-header {
     padding-left: 1em;
     padding-right: 1em;

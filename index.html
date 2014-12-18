@@ -3,7 +3,9 @@
 <head lang="en">
     <meta charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/resume.css">
+
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <title>Vance Miller</title>
 </head>
@@ -27,13 +29,34 @@
                 <li>Bachelor of Science, Computer Science</li>
             </ul>
             <h3>Relevant Coursework</h3>
-            <ul>
-                <li>Computer Science: Scientific programming, discrete structures, data structures, algorithms, computer
-                    architecture and design, models of languages and computation, digital logic, web programming,
-                    computational photography, databases, operating systems
-                </li>
-                <li>Mathematics: Calculus, discrete math, differential equations, linear algebra, probability</li>
-            </ul>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4>Computer Science</h4>
+                    <ul>
+                        <li>Scientific Programming</li>
+                        <li>Discrete Structures</li>
+                        <li>Data Structures</li>
+                        <li>Digital Logic</li>
+                        <li>Algorithms</li>
+                        <li>Computer Architecture and Design</li>
+                        <li>Models of Languages and Computation</li>
+                        <li>Computational Photography</li>
+                        <li>Databases</li>
+                        <li>Operating Systems</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h4>Mathematics</h4>
+                    <ul>
+                        <li>Calculus</li>
+                        <li>Discrete Math</li>
+                        <li>Probability</li>
+                        <li>Differential Equations</li>
+                        <li>Linear Algebra</li>
+                    </ul>
+                </div>
+            </div>
             <h3>GPA</h3>
             <ul>
                 <li>3.886</li>
@@ -80,6 +103,7 @@
             </div>
             <div>
                 <h3>Grader</h3>
+
                 <div class="timePlace">
                     <span>Winter, Spring, 2014</span>
                     <span>Department of Computer Science, UNC - Chapel Hill</span>
@@ -94,6 +118,7 @@
             </div>
             <div>
                 <h3>IT Consultant</h3>
+
                 <div class="timePlace">
                     <span>Summer, 2013</span>
                     <span>North Carolina Coastal Federation</span>
@@ -116,7 +141,8 @@
             <ul>
                 <li><a href="http://github.com/vancemiller">Github: vancemiller</a></li>
                 <li><a href="http://bit.ly/UXKtC5">GIS map simplification - ACM GIS Cup 2014</a></li>
-                <li><a href="http://bit.ly/UPgz3g">Geometric algorithm visualizer - Research project summer 2014</a></li>
+                <li><a href="http://bit.ly/UPgz3g">Geometric algorithm visualizer - Research project summer 2014</a>
+                </li>
                 <li><a href="http://hacknc.us">HackNC - Website for UNC's hackathon - http://hacknc.us</a></li>
                 <li><a href="http://bit.ly/1qUQUox">Piano synthesizer - Just intonation, chordal keyboard</a></li>
                 <li><a href="http://bit.ly/1p6r8L8">Chess - The game</a></li>
@@ -127,43 +153,42 @@
         <div class="section-header">
             <h2>Activities and awards</h2>
         </div>
-        <div class="section-content">
-            <div>
-                <div>
+        <div class="container-fluid">
+            <div class="row">
+                <!--<div class="col-sm-6">-->
+                    <!--<h3>Spring 2015</h3>-->
+                    <!--<ul>-->
+                        <!--<li>a</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+                <div class="col-sm-6">
                     <h3>Fall 2014</h3>
-                </div>
-                <div>
                     <ul>
                         <li>Phi Beta Kappa</li>
                         <li>HackNC coordinator</li>
+                        <li>Hack Duke attendee</li>
                         <li>Wind ensemble</li>
                         <li>Contemporary music ensemble</li>
                     </ul>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="row">
+                <div class="col-sm-6">
                     <h3>Spring 2014</h3>
-                </div>
-                <div>
                     <ul>
                         <li>Dean's list</li>
                         <li>Introductory programming tutor</li>
                         <li>Pearl Hacks volunteer</li>
                         <li>HackNC organizer</li>
-                        <li>HackDuke attendee</li>
+                        <li>Hack Duke attendee</li>
                         <li>MHacks attendee</li>
                         <li>Symphony band</li>
                         <li>Contemporary music ensemble</li>
                         <li>Lab orchestra</li>
                     </ul>
                 </div>
-            </div>
-            <div>
-                <div>
+                <div class="col-sm-6">
                     <h3>Fall 2013</h3>
-                </div>
-                <div>
                     <ul>
                         <li>Dean's list</li>
                         <li>Introductory programming tutor</li>
@@ -173,11 +198,9 @@
                     </ul>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="row">
+                <div class="col-sm-6">
                     <h3>Spring 2013</h3>
-                </div>
-                <div>
                     <ul>
                         <li>Dean's list</li>
                         <li>Wind ensemble</li>
@@ -185,12 +208,8 @@
                         <li>Marching band</li>
                     </ul>
                 </div>
-            </div>
-            <div>
-                <div>
+                <div class="col-sm-6">
                     <h3>Fall 2012</h3>
-                </div>
-                <div>
                     <ul>
                         <li>Dean's list</li>
                         <li>Symphony band</li>
