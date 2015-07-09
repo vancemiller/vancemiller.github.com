@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-  <meta charset="UTF-8">
+<html land="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/resume.css">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
   <title>Vance Miller</title>
 </head>
 <body>
-<div class="resume">
-  <header>
-    <h1>Vance Miller -- Resume</h1>
-    <span>Email me at <a href="mailto:v@unc.edu">v@unc.edu</a></span>
-  </header>
-  <div id="education">
-    <div class="section-header">
+<div class="resume container">
+  <div id="header" class="row">
+    <div class="col-xs-12">
+      <h1>Vance Miller -- Resume</h1>
+      <span>Email me at <a href="mailto:v@unc.edu">v@unc.edu</a></span>
+    </div>
+  </div>
+  <div id="education" class="row">
+    <div class="col-xs-12 section-header">
       <h2>Education</h2>
     </div>
-    <div class="section-content">
+    <div class="col-xs-12 section-content">
       <h3>School</h3>
       <ul>
         <li>The University of North Carolina at Chapel Hill, Class of 2016</li>
@@ -30,7 +34,7 @@
       <h3>Relevant Coursework</h3>
 
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
           <h4>Computer Science</h4>
           <ul>
             <li>Algorithms</li>
@@ -49,7 +53,7 @@
             <li>Software Engineering Laboratory</li>
           </ul>
         </div>
-        <div class="col-sm-6">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
           <h4>Mathematics</h4>
           <ul>
             <li>Calculus</li>
@@ -59,120 +63,159 @@
             <li>Linear Algebra</li>
           </ul>
         </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <h3>GPA</h3>
+          <ul>
+            <li>3.904</li>
+          </ul>
+        </div>
       </div>
-      <h3>GPA</h3>
-      <ul>
-        <li>3.886</li>
-      </ul>
     </div>
   </div>
-  <div id="languages">
-    <div class="section-header">
+  <div id="languages" class="row">
+    <div class="section-header col-xs-12">
       <h2>Languages and tools</h2>
     </div>
-    <div class="section-content">
+    <div class="section-content col-xs-12">
       <em>In order of fluency</em>
       <ul>
         <li>Java</li>
         <li>C</li>
-        <li>HTML, CSS, Javascript, JQuery</li>
-        <li>MIPS Assembly</li>
-        <li>Matlab</li>
-        <li>Verilog</li>
-        <li>LaTeX</li>
         <li>Python</li>
         <li>CUDA</li>
-        <li>x86 Assembly</li>
+        <li>HTML, CSS, Javascript, JQuery</li>
         <li>PHP</li>
+        <li>MIPS Assembly</li>
+        <li>x86 Assembly</li>
+        <li>Matlab</li>
+        <li>SQL</li>
+        <li>Verilog</li>
+        <li>LaTeX</li>
       </ul>
     </div>
   </div>
-  <div id="experience">
-    <div class="section-header">
+  <div id="experience" class="row">
+    <div class="section-header col-xs-12">
       <h2>Experience</h2>
     </div>
-    <div class="section-content">
-      <div>
-        <h3>Operating Systems Research</h3>
+    <div class="section-content col-xs-12">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>Software Engineering Intern</h3>
 
-        <div class="timePlace">
-          <span>Spring 2015</span>
-          <span>Department of Computer Science, UNC - Chapel Hill</span>
+          <div class="timePlace">
+            <span>Summer 2015</span>
+            <span>Google</span>
+          </div>
+          <div class="detail">
+            <ul>
+              <li>Backend to frontend web development</li>
+              <li>Signed an NDA</li>
+            </ul>
+          </div>
         </div>
-        <div class="detail">
-          <ul>
-            <li>C, CUDA, GPU scheduling algorithms for image processing in realtime</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <h3>Computational Geometry Research</h3>
+        <div class="col-xs-12">
+          <h3>CUDA chemical signature similarity</h3>
 
-        <div class="timePlace">
-          <span>Summer, Fall 2014</span>
-          <span>Department of Computer Science, UNC - Chapel Hill</span>
+          <div class="timePlace">
+            <span>Spring 2015</span>
+            <span>School of Pharmacy, UNC - Chapel Hill</span>
+          </div>
+          <div class="detail">
+            <ul>
+              <li>Worked on a team to develop code for our client</li>
+              <li>Compute similarity matrix of very large input sets</li>
+              <li>Uses NVIDIA's CUDA GPGPU programming interface</li>
+              <li><a href="https://github.com/chunweiliu/bigchem">Repository</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="detail">
-          <ul>
-            <li>Developed test case generator and visualizer.</li>
-            <li>Developed computational geometry algorithm visualizer.</li>
-            <li>Developed question and answer website for discrete structures class.</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <h3>Grader</h3>
+        <div class="col-xs-12">
+          <h3>Operating Systems Research</h3>
 
-        <div class="timePlace">
-          <span>Winter, Spring, 2014</span>
-          <span>Department of Computer Science, UNC - Chapel Hill</span>
+          <div class="timePlace">
+            <span>Spring 2015</span>
+            <span>Department of Computer Science, UNC - Chapel Hill</span>
+          </div>
+          <div class="detail">
+            <ul>
+              <li>C, CUDA, GPU scheduling algorithms for image processing in realtime</li>
+            </ul>
+          </div>
         </div>
-        <div class="detail">
-          <ul>
-            <li>Graded tests and homework for two sections of the data structures and algorithm analysis
-              course.
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <h3>IT Consultant</h3>
+        <div class="col-xs-12">
+          <h3>Computational Geometry Research</h3>
 
-        <div class="timePlace">
-          <span>Summer, 2013</span>
-          <span>North Carolina Coastal Federation</span>
+          <div class="timePlace">
+            <span>Summer, Fall 2014</span>
+            <span>Department of Computer Science, UNC - Chapel Hill</span>
+          </div>
+          <div class="detail">
+            <ul>
+              <li>Developed test case generator and visualizer.</li>
+              <li>Developed computational geometry algorithm visualizer.</li>
+              <li>Developed question and answer website for discrete structures class.</li>
+            </ul>
+          </div>
         </div>
-        <div class="detail">
-          <ul>
-            <li>Introduced the organization to Google Apps for Nonprofits.</li>
-            <li>Migrated organization to Google Apps.</li>
-            <li>Trained staff to use new products.</li>
-          </ul>
+        <div class="col-xs-12">
+          <h3>Grader</h3>
+
+          <div class="timePlace">
+            <span>Winter, Spring, 2014</span>
+            <span>Department of Computer Science, UNC - Chapel Hill</span>
+          </div>
+          <div class="detail">
+            <ul>
+              <li>Graded tests and homework for two sections of the data structures and algorithm analysis
+                course.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <h3>IT Consultant</h3>
+
+          <div class="timePlace">
+            <span>Summer, 2013</span>
+            <span>North Carolina Coastal Federation</span>
+          </div>
+          <div class="detail">
+            <ul>
+              <li>Introduced the organization to Google Apps for Nonprofits.</li>
+              <li>Migrated organization to Google Apps.</li>
+              <li>Trained staff to use new products.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div id="projects">
-    <div class="section-header">
+  <div id="projects" class="row">
+    <div class="section-header col-xs-12">
       <h2>Project links</h2>
     </div>
-    <div class="section-content">
+    <div class="section-content col-xs-12">
       <ul>
         <li><a href="http://github.com/vancemiller">Github: vancemiller</a></li>
+        <li><a href="http://hacknc.github.io/fall2015">HackNC 2015 website</a></li>
+        <li><a href="https://github.com/chunweiliu/bigchem">CUDA molecule similarity</a></li>
+        <li><a href="http://raspberryjam.hacknc.com">Raspberry Jam website</a></li>
+        <li><a href="http://www.github.com/unchatch/jukebox">Youtube Jukebox</a></li>
         <li><a href="http://bit.ly/UXKtC5">GIS map simplification - ACM GIS Cup 2014</a></li>
-        <li><a href="http://bit.ly/UPgz3g">Geometric algorithm visualizer - Research project summer 2014</a>
-        </li>
-        <li><a href="http://hacknc.us">HackNC - Website for UNC's hackathon - http://hacknc.us</a></li>
+        <li><a href="http://bit.ly/UPgz3g">Geometric algorithm visualizer - Research project summer 2014</a></li>
+        <li><a href="http://www.github.com/vancemiller/MIPS-CPU">Verilog MIPS CPU</a></li>
+        <li><a href="http://hacknc.github.io/Fall2014">HackNC 2014</a></li>
         <li><a href="http://bit.ly/1qUQUox">Piano synthesizer - Just intonation, chordal keyboard</a></li>
         <li><a href="http://bit.ly/1p6r8L8">Chess - The game</a></li>
       </ul>
     </div>
   </div>
-  <div id="activities">
-    <div class="section-header">
+  <div id="activities" class="row">
+    <div class="section-header" class="col-xs-12">
       <h2>Activities and awards</h2>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid col-xs-12">
       <div class="row">
         <div class="col-sm-6">
           <h3>Spring 2015</h3>
@@ -181,12 +224,17 @@
             <li>MHacks attendee</li>
             <li>Pearl Hacks volunteer</li>
             <li>Wind ensemble</li>
+            <li><a href="http://raspberryjam.hacknc.com">Raspberry Jam</a> - a hardware hackashop - organizer</li>
+            <li>UNC Computer Security Pulitzer Prize - <a
+                href="http://cs.unc.edu/~fabian/pwnies/2015-HappyTuesday.html">PWNIE awards</a></li>
+            <li>UNC Computer Security All-Star - PWNIE awards</li>
+            <li>Dean's list</li>
           </ul>
         </div>
         <div class="col-sm-6">
           <h3>Fall 2014</h3>
           <ul>
-            <li>Phi Beta Kappa</li>
+            <li>Phi Beta Kappa Inductee</li>
             <li>Dean's list</li>
             <li>HackNC coordinator</li>
             <li>Hack Duke attendee</li>
@@ -242,9 +290,10 @@
       </div>
     </div>
   </div>
-  <footer>
-    <a href="https://github.com/vancemiller/vancemiller.github.com">See the commits</a>
-  </footer>
 </div>
+<footer>
+  <a href="https://github.com/vancemiller/vancemiller.github.com">See the commits</a>
+</footer>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
