@@ -27,21 +27,40 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-header {
+#header {
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 1em;
+  margin-top: 5px;
 }
 
 .resume {
-  /*max-width: 8.5in;*/
-  /*margin: 20px auto;*/
-  /*background-color: rgba(255, 255, 255, 1);*/
+  max-width: 8.5in;
+  margin: 10px auto;
+  background-color: rgba(18, 119, 50, 0.1);
 }
 
-.resume > div {
-  margin: 20px;
-  background-color: rgba(18, 119, 50, 0.1);
+.resume.container {
+  padding: 0;
+}
+
+.resume .row {
+  margin:0;
+}
+
+.resume .col-xs-12, .resume .col-sm-6 {
+  padding: 0;
+}
+
+#languages, #experience {
+  margin-right: 2.5px;
+}
+
+#projects, #activities {
+  margin-left: 2.5px;
+}
+
+.row.box {
 }
 
 .resume ul {
@@ -66,4 +85,3 @@ header {
 .resume .timePlace > span:first-child:after {
   content: ' - ';
 }
-
